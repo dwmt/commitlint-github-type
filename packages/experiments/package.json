@@ -1,0 +1,15 @@
+{
+  "name": "@dwmt/experiments",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@dwmt/commitlint-config-github-type": "workspace:*",
+    "@dwmt/commitlint-plugin-github-type": "workspace:*",
+    "@commitlint/cli": "12.0.1"
+  }
+}
+

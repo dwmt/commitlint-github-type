@@ -1,0 +1,20 @@
+{
+  "name": "@dwmt/commitlint-common-github-type",
+  "version": "1.0.0",
+  "description": "Shared definitions for the github-type commitlint packages.",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix"
+  },
+  "keywords": [
+    "commitlint",
+    "commitlint-config",
+    "commitlint-plugin"
+  ],
+  "author": "DWMT",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "16.0.3"
+  }
+}

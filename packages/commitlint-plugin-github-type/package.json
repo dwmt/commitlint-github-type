@@ -1,0 +1,28 @@
+{
+  "name": "@dwmt/commitlint-plugin-github-type",
+  "version": "1.0.0",
+  "description": "Check if your commit messages start with an issue number and a type.",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "test": "jest"
+  },
+  "keywords": [
+    "commitlint",
+    "commitlint-config",
+    "commitlint-plugin"
+  ],
+  "author": "DWMT",
+  "license": "MIT",
+  "dependencies": {
+    "@dwmt/commitlint-common-github-type": "workspace:*"
+  },
+  "devDependencies": {
+    "jest": "26.6.3",
+    "standard": "16.0.3"
+  },
+  "peerDependencies": {
+    "@commitlint/lint": ">=7.6.0"
+  }
+}

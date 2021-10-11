@@ -1,0 +1,23 @@
+{
+  "name": "@dwmt/commitlint-config-github-type",
+  "version": "1.0.0",
+  "description": "Default configuration for the numbered type commitlint plugin.",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix"
+  },
+  "keywords": [
+    "commitlint",
+    "commitlint-config",
+    "commitlint-plugin"
+  ],
+  "author": "DWMT",
+  "license": "MIT",
+  "dependencies": {
+    "@dwmt/commitlint-common-github-type": "workspace:*"
+  },
+  "devDependencies": {
+    "standard": "16.0.3"
+  }
+}
