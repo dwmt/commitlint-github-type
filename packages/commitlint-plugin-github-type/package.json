@@ -1,7 +1,7 @@
 {
   "name": "@dwmt/commitlint-plugin-github-type",
   "version": "1.0.0",
-  "description": "Check if your commit messages start with an issue number and a type.",
+  "description": "Check if your commit messages start with a GitHub issue reference and a type.",
   "main": "src/index.js",
   "scripts": {
     "lint": "standard",
