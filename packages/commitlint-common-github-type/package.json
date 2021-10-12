@@ -1,6 +1,6 @@
 {
   "name": "@dwmt/commitlint-common-github-type",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Shared definitions for the github-type commitlint packages.",
   "main": "src/index.js",
   "scripts": {
